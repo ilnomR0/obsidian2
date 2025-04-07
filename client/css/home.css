@@ -1,0 +1,72 @@
+:root{
+    color-scheme: light dark;
+}
+
+body{
+    background-color:light-dark(#fff, #000);
+    color:light-dark(#000, #fff);
+    font-family: sans-serif;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: 20em auto;
+	grid-template-rows: 3.33em;
+	width: auto;
+	height: 96vh;
+    border:#444 solid 1px;
+    border-radius: 1em;
+    overflow:hidden
+}
+
+#navbar {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+    background-color:#444444;
+}
+#files{
+    border-right:#444 solid 1px;
+    resize: horizontal;
+}
+
+#markdown{
+    overflow:scroll;
+}
+
+#openSpaceDialog{
+}
+
+.fileButton {
+    width: 100%;
+    background-color: transparent;
+    border-style: none;
+    text-align: left;
+}
+
+.fileButton:hover{
+    background-color:#444444;
+}
+summary:hover{
+    background-color: #444;
+}
+  
+details{
+    border-left:1px white solid;
+    border-top:1px #222 solid;
+    margin-left:5px;
+}
+
+#error{
+    color:red;
+    border:1px red solid;
+    border-radius: 0.5em;
+    display:none;
+    width:40%;
+    height:auto;
+    padding:16px;
+    float:right;
+    width:calc(100% - 32px);
+
+}

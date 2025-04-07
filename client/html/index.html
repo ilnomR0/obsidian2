@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>messenger</title>
-    <script src="../js/message.js"></script>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/main.js" type="module" defer></script>
 </head>
 <body>
-    <div id="chat">
+    <div id="container">
+        <div id="files">
+            <div id="notConnected">
+                <span>you have not connected to a space yet</span>
+                <button id="connectToSpaceBtn">connect to a space?</button>
+            </div>
+        </div>
+        <div id="navbar">
+            <button>open space</button>
+        </div>
+        <div id="markdown" contenteditable>
+
+        </div>
+
+
+        <!--open space dialog, where you select the space via the server URL. Is gotten from the "admin" pannel-->
+        <dialog id="openSpaceDialog">
+            <form>
+                <span>
+                    <label>
+                        please input a space server URL:
+                        <input type="text" id="spaceServerLocation"/>
+                    </label>
+                </span>
+                <div>
+                    <button id="confirmSpaceBtn" value="default">Confirm</button>
+                    <button value="cancel" formmethod="dialog">Cancel</button>
+                </div>
+            </form>
+
+            <div id="error"></div>
+        </dialog>
 
     </div>
-    <input type="text" id="message" placeholder="message goes here"/>
-    <button onclick="sendMessage(document.getElementById('message').value)">send message</button>
-</body>
+    <body>
 </html>

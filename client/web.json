@@ -1,22 +1,13 @@
 {
-    "index":"html/login.html",
+    "index":"html/index.html",
     "errors":{
         "404":"html/errors/404.html",
         "403":"html/errors/403.html"
     },
     "hidden":[
-        "web.json",
-        "main.js"
+        "web.json"
     ],
     "aliases":[
-        {
-            "alias":"welcome",
-            "location":"html/login.html"
-        },
-        {
-            "alias":"home",
-            "location":"html/index.html"
-        },
         {
             "alias":"404",
             "location":"html/errors/404.html"

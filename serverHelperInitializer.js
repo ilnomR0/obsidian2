@@ -4,9 +4,9 @@ var fs = require('fs');
 
 /**
  * @callback serverCallback
- * @param port
- * @param settings
- * @param server
+ * @param {number} port
+ * @param {object} settings
+ * @param {http.Server} server
  */
 /**
  * 
