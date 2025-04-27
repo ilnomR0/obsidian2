@@ -1,0 +1,1 @@
+This is gonna be a little like a trident with loyalty, but instead of the trident returning to you, you return to the trident.

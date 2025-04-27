@@ -1,0 +1,1 @@
+This class is the same as not having a class. If you just want the good ol' vanilla experience. You boring person.

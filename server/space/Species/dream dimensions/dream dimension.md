@@ -1,0 +1,1 @@
+The dream dimension is an area that your god took you to, as they have noticed your skill and want to put you to the test. In the dream dimension, normal rules don't apply. Your deity will train you to become the best there is, and gift you many things such as [[Soul Bound items]].
